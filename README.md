@@ -1,0 +1,2 @@
+# intensecoin
+IntenseCoin Base
