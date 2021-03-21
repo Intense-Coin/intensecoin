@@ -162,8 +162,8 @@ namespace config
       0x9c, 0x40, 0x3d, 0x04, 0x9f, 0x82, 0x2c, 0x3d, 0x82, 0x5f, 0x2c, 0x1a, 0x44, 0x32, 0x7d, 0x92
     } };
   std::string const GENESIS_TX = "013c01ff0001af9ea896c605029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101e444827ebec7bfe1938c8505128cbcf59343e9651afb0893d3d664f560fd216f";
-  uint32_t const GENESIS_NONCE = 70;
-  uint32_t const GENESIS_TIMESTAMP = 1502835881;
+  uint32_t const GENESIS_NONCE = 1;
+  uint32_t const GENESIS_TIMESTAMP = 1;
 
   namespace testnet
   {
