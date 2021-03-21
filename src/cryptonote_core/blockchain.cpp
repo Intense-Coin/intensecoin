@@ -88,7 +88,8 @@ static const struct {
   time_t time;
 } mainnet_hard_forks[] = {
   // version 1 from the start of the blockchain
-  { 4, 1, 0, config::GENESIS_TIMESTAMP },
+  { 1, 1, 0, config::GENESIS_TIMESTAMP },
+  { 4, 2, 0, 2 },
 
 
 };
