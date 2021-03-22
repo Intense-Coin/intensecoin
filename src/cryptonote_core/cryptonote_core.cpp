@@ -494,7 +494,7 @@ namespace cryptonote
     if(tx_blob.size() > get_max_tx_size())
     {
       LOG_PRINT_L1("WRONG TRANSACTION BLOB, too big size " << tx_blob.size() << ", rejected");
-      tvc.m_verifivation_failed = false;
+      tvc.m_verifivation_failed = true;
       tvc.m_too_big = true;
       return false;
     }
@@ -528,7 +528,7 @@ namespace cryptonote
     if (tx.version == 0 || tx.version > max_tx_version)
     {
       // v2 is the latest one we know
-      tvc.m_verifivation_failed = true;
+      tvc.m_verifivation_failed = false;
       return false;
     }
 
