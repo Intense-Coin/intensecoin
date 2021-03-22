@@ -528,7 +528,7 @@ namespace cryptonote
     if (tx.version == 0 || tx.version > max_tx_version)
     {
       // v2 is the latest one we know
-      tvc.m_verifivation_failed = false;
+      tvc.m_verifivation_failed = true;
       return false;
     }
 
