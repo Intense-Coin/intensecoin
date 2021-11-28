@@ -115,5 +115,5 @@ add_dependencies(blockchain_export
 	version)
 set_property(TARGET blockchain_export
 	PROPERTY
-	OUTPUT_NAME "intense-blockchain-export")
+	OUTPUT_NAME "imeta-blockchain-export")
 
